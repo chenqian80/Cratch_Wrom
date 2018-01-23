@@ -21,7 +21,7 @@ import com.bigdata.spider.entity.Page;
  */
 public class SolrUtil {
 	// solr服务器地址
-	private static final String SOLR_URL = "http://localhost:8081/solr/"; 
+	private static final String SOLR_URL = "http://localhost:8080/solr/";
 	private static HttpSolrServer server = null;
 	static {
 		try {

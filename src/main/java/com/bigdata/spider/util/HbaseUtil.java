@@ -54,8 +54,8 @@ public class HbaseUtil {
 	public HbaseUtil(){
 		//读取配置文件
 		conf=new  Configuration();
-		conf.set("hbase.zookeeper.quorum", "ibeifeng.com:2181");
-		conf.set("hbase.rootdir", "hdfs://ibeifeng.com:8020/hbase");
+		conf.set("hbase.zookeeper.quorum", "hadoop-senior.ibeifeng.com:2181");
+		conf.set("hbase.rootdir", "hdfs://hadoop-senior.ibeifeng.com:8020/hbase");
 		
 		try {
 			admin=new HBaseAdmin(conf);

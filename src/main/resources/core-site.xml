@@ -20,13 +20,13 @@
 <!--NameNode地址，8020是指定进程8020，访问入口 -->
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://ibeifeng.com:8020</value>
+        <value>hdfs://hadoop-senior.ibeifeng.com:8020</value>
     </property>
 
 	<!--hadoop在运行时产生的文件，元数据在本地的存放目录 -->
 	<property>
 		<name>hadoop.tmp.dir</name>
-		<value>/opt/modules/hadoop-2.5.0/data/tmp</value>
+		<value>/opt/modules/hadoop-2.5.0-cdh5.3.6/data/tmp</value>
 	</property>
 	
 	<!-- 设置proxyuser的主机和组，第一个*代表本机，第二个*代表任意用户组 -->

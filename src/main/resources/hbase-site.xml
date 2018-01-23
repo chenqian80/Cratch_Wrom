@@ -23,7 +23,7 @@
 <configuration>
         <property>
 			<name>hbase.rootdir</name>
-			<value>hdfs://ibeifeng.com:8020/hbase</value>
+			<value>hdfs://hadoop-senior.ibeifeng.com:8020/hbase</value>
 		</property>
 		
 		<property>
@@ -32,7 +32,7 @@
 		</property>
 		<property>
 			<name>hbase.tmp.dir</name>
-			<value>/opt/modules/cdh/hbase-0.98.6-cdh5.3.6/tmp</value>
+			<value>/opt/modules/hbase-0.98.6-cdh5.3.6/tmp</value>
 		</property>
 		
 </configuration>

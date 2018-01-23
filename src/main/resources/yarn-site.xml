@@ -22,7 +22,7 @@
 
 	<property>
         <name>yarn.resourcemanager.hostname</name>
-        <value>ibeifeng.com</value>
+        <value>hadoop-senior.ibeifeng.com</value>
     </property>
 	
 	<property>

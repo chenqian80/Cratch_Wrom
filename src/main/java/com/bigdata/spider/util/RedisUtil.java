@@ -27,7 +27,7 @@ public class RedisUtil {
 		poolConfig.setMaxTotal(100);
 		poolConfig.setMaxWaitMillis(10000);
 		poolConfig.setTestOnBorrow(true);
-		jedisPool = new JedisPool(poolConfig, "ibeifeng.com", 6379);
+		jedisPool = new JedisPool(poolConfig, "hadoop-senior.ibeifeng.com", 6379);
 	}
 
 	/**

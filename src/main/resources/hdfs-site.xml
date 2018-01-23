@@ -25,7 +25,7 @@
 
 	<property>
 		<name>dfs.namenode.secondary.http-address</name>
-		<value>ibeifeng.com:50090</value>
+		<value>hadoop-senior.ibeifeng.com:50090</value>
 	</property>
 
 </configuration>

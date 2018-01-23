@@ -8,8 +8,7 @@ import com.cloudera.com.amazonaws.util.json.JSONObject;
 import org.apache.commons.lang.StringUtils;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
-import org.mortbay.util.ajax.JSON;
+
 
 import static org.mortbay.util.ajax.JSON.*;
 
@@ -55,12 +54,12 @@ public class GetCommentUtil {
 		String json = getJson(urlTransForm);
 		if(StringUtils.isNotBlank(json)){
 			try {
-				JSONObject parseObject = JSON.parseObject(json);
+				com.alibaba.fastjson.JSONObject parseObject = JSON.parseObject(json);
 				Object object = parseObject.get("result");
-				JSONObject parseObject1 = JSON.parseObject(object.toString());
+				com.alibaba.fastjson.JSONObject parseObject1 = JSON.parseObject(object.toString());
 				Object object1 = parseObject1.get("count");
 				
-				JSONObject parseObject2 = JSON.parseObject(object1.toString());
+				com.alibaba.fastjson.JSONObject parseObject2 = JSON.parseObject(object1.toString());
 				Object object2 = parseObject2.get("total");
 				System.out.println("评论数："+object2);
 				return object2.toString();
